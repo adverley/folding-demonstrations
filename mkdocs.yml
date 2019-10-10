@@ -1,0 +1,25 @@
+site_name: Video Folding Demonstrations
+
+repo_url: https://localhost
+
+markdown_extensions:
+  - admonition
+  - attr_list     # To be able to add CSS elements in markdown
+
+theme:
+  name: 'material'
+  custom_dir: 'docs/theme'
+  palette:
+    primary: '#1E64C8'
+    accent: '#FFD200'
+
+extra_css:
+  - 'stylesheets/extra.css'
+  - 'stylesheets/bootstrap.css'
+
+nav:
+  - Home: 'index.md'
+  - Setup: 'setup.md'
+  - Examples: 'examples.md'
+  - About: 'about.md'
+  - License: 'license.md'

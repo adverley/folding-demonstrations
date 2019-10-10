@@ -1,0 +1,9 @@
+.md-typeset {
+    font-size: 15px;
+}
+.md-footer {
+    font-size: 15px;
+}
+.md-footer-nav__link, .md-footer-nav__title {
+    font-size: initial;
+}
