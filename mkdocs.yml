@@ -1,6 +1,6 @@
 site_name: Video Folding Demonstrations
 
-repo_url: https://localhost
+repo_url: https://adverley.github.io/folding-demonstrations/
 
 markdown_extensions:
   - admonition
