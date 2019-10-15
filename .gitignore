@@ -96,3 +96,8 @@ tags
 
 #mkdcos
 site/
+
+# build
+*.egg
+folding_demonstrations.egg-info/*
+site/*
