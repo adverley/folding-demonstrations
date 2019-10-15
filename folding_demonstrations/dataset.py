@@ -92,8 +92,8 @@ class FoldingDemonstrationSample:
     Represents all captured frames in a folding demonstration
     """
 
-    def __init__(self, home_dir: str, sample_id: int, perspectives: Tuple, rgb: bool, depth: bool, pose: bool,
-                 subtask: bool, reward: bool):
+    def __init__(self, home_dir: str, sample_id: int, perspectives: Tuple,
+                 rgb: bool, depth: bool, pose: bool, subtask: bool, reward: bool):
         self.home_dir = home_dir
         self.idx = sample_id
         self.sample_dir = os.path.join(self.home_dir, f'{sample_id}')
