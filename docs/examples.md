@@ -1,7 +1,8 @@
 # Code examples
 
-The code can be found [here](https://github.com/adverley/folding-demonstrations/tree/master/folding_demonstrations/examples).
+Code examples on how to use the _folding_demonstrations_ API can be found [here](https://github.com/adverley/folding-demonstrations/tree/master/folding_demonstrations/examples).
 
+Installation instructions are available in the [readme](https://github.com/adverley/folding-demonstrations) of the git project.
 ## Scenario 1 - query RGB images from one perspective
 ```
 from folding_demonstrations.dataset import FoldingDemonstrationDataSet

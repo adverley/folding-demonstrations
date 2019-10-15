@@ -36,7 +36,8 @@ The folding demonstrations in this dataset are exposed using the following featu
 The following downloads are available:
 
  * [Paper](:TODO)
- * [Dataset - 20% sample](https://cloud.ilabt.imec.be/index.php/s/Grgwri7fa6iM4f6)
+ * [Dataset - 5% sample (3.2 GB)](https://cloud.ilabt.imec.be/index.php/s/6nFYT4HdceKQeBZ)
+ * [Dataset - 20% sample (132 GB)](https://cloud.ilabt.imec.be/index.php/s/Grgwri7fa6iM4f6)
  * [Dataset - complete](): this link is upcoming 
  * [Code](https://github.com/adverley/folding-demonstrations)
  

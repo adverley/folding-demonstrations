@@ -6,7 +6,9 @@ Detailed information can be found in the [wiki](https://adverley.github.io/foldi
 
 ![alt text](docs/res/3x3-sample.png "Example output of the dataset")
 
-## Requirements
+## Using the dataset and API 
+
+### Requirements
 The API of folding_demonstrations works on **Python 3.6** and higher. This is because f-strings are used. The sole dependency is pillow which can be installed using `pip install pillow`.
 
 ### Install
@@ -17,6 +19,9 @@ To install the package:
 cd /path/to/folding_demonstrations
 pip install . 
 ```
+### Downloading the data
+Download the data [here](https://adverley.github.io/folding-demonstrations/#downloads) and extract the files.
+
 
 ### Running examples
 To run the examples, cv2 and numpy will also need to be installed.  
