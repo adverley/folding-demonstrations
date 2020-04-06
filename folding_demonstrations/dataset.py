@@ -128,19 +128,25 @@ class FoldingDemonstrationSample:
         The annotations.json files contains two inner dictionaries of which the keys are ints stored as strings.
         This method converts them to ints so they are easy to index.
         """
-        reward_changes = annotations['nb_folds']
-        reward_changes_new = {}
-        for k, v in reward_changes.items():
-            reward_changes_new[int(k)] = v
+        if 'nb_folds' in annotations.keys():
+            reward_changes = annotations['nb_folds']
+            reward_changes_new = {}
+            for k, v in reward_changes.items():
+                reward_changes_new[int(k)] = v
 
-        annotations['nb_folds'] = reward_changes_new
+            annotations['nb_folds'] = reward_changes_new
+        else:
+            print(f'WARNING: could not find key "nb_folds" in annotations. Do you have the latest version of the dataset?')
 
-        step_changes = annotations['subtask_changes']
-        step_changes_new = {}
-        for k, v in step_changes.items():
-            step_changes_new[int(k)] = v
+        if 'subtask_changes' in annotations.keys():
+            step_changes = annotations['subtask_changes']
+            step_changes_new = {}
+            for k, v in step_changes.items():
+                step_changes_new[int(k)] = v
 
-        annotations['subtask_changes'] = step_changes_new
+            annotations['subtask_changes'] = step_changes_new
+        else:
+            print(f'WARNING: could not find key "subtask_changes" in annotations. Do you have the latest version of the dataset?')
 
         return annotations
 
