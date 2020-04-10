@@ -19,6 +19,12 @@ To install the package:
 cd /path/to/folding_demonstrations
 pip install . 
 ```
+
+Or optionally pip install from the git repo:
+```
+pip install git+git://github.com/adverley/folding-demonstrations.git
+```
+
 ### Downloading the data
 Download the data [here](https://adverley.github.io/folding-demonstrations/#downloads) and extract the files.
 
